@@ -28,6 +28,46 @@ hr{
     margin-bottom: 27px;
 }
 
+/* header styles */
+
+.header{
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+}
+
+nav{
+    display: flex;
+}
+
+.header img{
+    width: 41px;
+    height: 51px;
+    padding: 26px 0 17px 285px;
+}
+
+.header .nav-title{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 0 25px 16px;
+    color: #FFFFFF;
+}
+
+.header .nav-li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 36px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 0 25px 452px;
+    color: #FFFFFF;
+}
+
+.header .profile{
+    padding: 23px 290px 20px 36px;
+}
+
 /* top players styles */
 
 .top-players{
